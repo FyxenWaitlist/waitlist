@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>We're Launching Soon - Bytread International</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Bytread Logo" class="logo" />
+    <h1>We're Launching Soon</h1>
+    <p>Join our waitlist to get notified!</p>
+    <form id="waitlist-form">
+      <input type="text" name="user_name" placeholder="Your Name" required />
+      <input type="email" name="user_email" placeholder="Your Email" required />
+      <button type="submit">Join Waitlist</button>
+    </form>
+    <p id="confirmation" class="hidden">✅ Thanks! Check your email!</p>
+    <a href="about.html" class="about-link">About Us</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
